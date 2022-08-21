@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <title>Case 2</title>
     <link rel="stylesheet" href="asserts/css/normalize.css">
+    <link rel="stylesheet" href="asserts/css/styles.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
     <style>
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
         header {
             background-color: white;
             height: 6vh;
@@ -13,21 +25,23 @@
             margin: 0;
             box-shadow: 3px 2px 9px 2px #3C3C3C;
         }
+
         header > img {
+            position: relative;
             width: 100px;
-            height: 30px;
+            height: 50px;
+            left: 1vw;
         }
+
         header > ul {
             position: absolute;
             top: 0;
             bottom: 0;
-            right: 0;
             right: 10px;
             margin: auto;
         }
 
         header > ul > li {
-            padding-left: 10px;
             padding-left: 20px;
             margin-top: 10px;
             display: inline-block;
@@ -42,12 +56,24 @@
             margin: 0;
             background-color: purple;
         }
+
         main > nav > section > ul {
-            background-color: purple;
+            position: absolute;
+            list-style: none;
+            font-size: 20px;
+            top: 20vh;
         }
+
+        main > nav > section > ul > li {
+            color: white;
+            margin-bottom: 2vh;
+            font-weight: bold;
+        }
+
         main > section:first-child {
             position: relative;
         }
+
         div {
             position: absolute;
             z-index: -2;
@@ -59,10 +85,12 @@
             width: 84vw;
             margin: 0;
         }
+
         div > img {
             height: 24vh;
             width: 27vw;
         }
+
         .para {
             position: absolute;
             z-index: -2;
@@ -72,6 +100,7 @@
             margin: auto;
             background-color: white;
         }
+
         .para > p {
             position: relative;
             margin-left: 20px;
@@ -87,7 +116,7 @@
             bottom: 0;
         }
 
-        footer>p{
+        footer > p {
             color: white;
             text-align: center;
             font-size: 20px;
@@ -95,6 +124,7 @@
 
     </style>
 </head>
+<body>
 <header>
     <img src="asserts/image/ijse.png" alt="logo">
     <ul>
@@ -105,6 +135,7 @@
     </ul>
 </header>
 <main>
+
     <nav>
         <section>
             <ul>
@@ -115,6 +146,7 @@
             </ul>
         </section>
     </nav>
+
     <section>
         <div>
             <img src="asserts/image/gif.gif" alt="">
@@ -122,6 +154,7 @@
             <img src="asserts/image/gif.gif" alt="">
         </div>
     </section>
+
     <section class="para">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque illum, laboriosam minus nostrum quas qui
             reiciendis! Accusamus, aspernatur atque aut distinctio dolores eum explicabo incidunt laboriosam nemo non
@@ -145,23 +178,7 @@
             voluptatum.</p>
         <p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
             doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-            voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p><p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
-        doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
-        voluptatum.</p>
-
-        voluptatum.</p>
+            voluptatum.</p>
         <p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
             doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
             voluptatum.</p>
@@ -184,7 +201,6 @@
             doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
             voluptatum.</p>
     </section>
-
 </main>
 <footer>
     <p>Developed by IJSE</p>
