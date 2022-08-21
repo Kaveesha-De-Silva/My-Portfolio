@@ -8,33 +8,36 @@
         header {
             background-color: white;
             height: 60px;
+            height: 5vw;
             width: 99vw;
             position: relative;
+            box-shadow: 3px 2px 9px 2px #3C3C3C;
         }
 
         header > img {
-            padding-right: 10px;
-            padding-top: 10px;
-            display: inline-block;
+            width: 200px;
+            height: 70px;
         }
-
         header > ul {
             position: absolute;
             margin: 10px;
             right: 0;
             top: 0;
         }
-
         header > ul > li {
             padding-left: 10px;
             padding-top: 10px;
             display: inline-block;
         }
 
-        main > nav > section {
+        main > nav > section
+        main > nav > section:first-child {
             display: inline-block;
             width: 200px;
             position: relative;
+            width: 25vw;
+            height: 80vh;
+            position: absolute;
             margin: 0;
             background-color: purple;
         }
@@ -42,12 +45,35 @@
         main > nav > section > ul {
             background-color: purple;
         }
+
+        main>section:first-child{
+            position: relative;
+        }
+
+        div{
+            position: absolute;
+            right: 0;
+            top: 7vh;
+        }
+        div>img{
+            height: 24vw;
+            width: 25vw;
+            margin: 0;
+        }
+
+        .para{
+            position: absolute;
+            top: 40vh;
+            left: 24vw;
+        }
+        .para>p{
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
 <header>
-    <img src="" alt="">
-    <img src="asserts/image/image.jpg" alt="logo">
+    <img src="asserts/image/ijse.png" alt="logo">
     <ul>
         <li>Home</li>
         <li>Service</li>
@@ -56,13 +82,6 @@
     </ul>
 </header>
 <main>
-    <nav>
-        <section>
-            <ul>
-
-            </ul>
-        </section>
-    </nav>
     <nav>
         <section>
             <ul>
@@ -76,6 +95,44 @@
 
         </section>
     </nav>
+    <section>
+        <div>
+            <img src="assets/img/gif.gif" alt="">
+            <img src="assets/img/gif.gif" alt="">
+            <img src="assets/img/gif.gif" alt="">
+        </div>
+    </section>
+    <section class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque illum, laboriosam minus nostrum quas qui
+            reiciendis! Accusamus, aspernatur atque aut distinctio dolores eum explicabo incidunt laboriosam nemo non
+            nostrum reiciendis.</p>
+        <p>Aliquid dignissimos dolorum iusto nemo optio pariatur perferendis quaerat ratione rerum suscipit! Culpa et
+            harum impedit, iste magnam quia repellat similique sunt voluptatem? Consequuntur error ex, id optio soluta
+            voluptate.</p>
+        <p>A dolorem doloribus explicabo in ipsam laborum magni, nesciunt omnis perspiciatis possimus quaerat quam quasi
+            ratione reiciendis repudiandae. Commodi corporis ducimus, eaque esse laboriosam molestiae mollitia officiis
+            quibusdam rerum tenetur.</p>
+        <p>Adipisci aliquam, assumenda at commodi consequatur, debitis est id iure nobis placeat provident quod rem
+            totam ut voluptatum! Ad hic itaque laudantium maiores numquam omnis quas quia soluta temporibus
+            voluptatem.</p>
+        <p>Accusamus accusantium alias asperiores aspernatur autem consequuntur debitis dolorem doloribus dolorum
+            exercitationem facilis id inventore ipsam ipsum nesciunt nobis nostrum obcaecati quod rem repudiandae sit
+            sunt temporibus, tenetur vero voluptatem.</p>
+        <p>Atque dolorem magnam molestias officiis. Ad autem consequatur, eveniet facere iste nobis officia similique
+            unde? Alias aut corporis dolore dolorum esse eveniet fuga id iste libero, magnam maxime sit, vitae!</p>
+        <p>Facilis natus optio quas. Accusantium cum fugiat maiores reprehenderit! Consectetur cupiditate dolor
+            doloribus hic maiores mollitia nesciunt quam quis ut? Alias cum debitis eum minima suscipit ut, velit vitae
+            voluptatum.</p>
+        <p>Autem commodi consectetur corporis, distinctio error libero mollitia nisi quasi rem repellat rerum sed soluta
+            tempore velit voluptate. Consequuntur culpa delectus nihil nisi placeat quia ratione sequi ullam velit
+            voluptate!</p>
+        <p>Cum eveniet sapiente vel veniam. Ab asperiores consectetur consequuntur distinctio eum numquam praesentium,
+            saepe tempora. Ab aliquid aperiam dicta doloribus facere modi numquam, pariatur perspiciatis quis sint
+            tempora veritatis voluptate.</p>
+        <p>A consequuntur deserunt dignissimos ducimus iure minus mollitia nam odio placeat porro quam, repudiandae
+            velit. Ab aperiam assumenda consectetur consequatur cumque dolorem, ducimus eligendi itaque necessitatibus
+            quae rem sit suscipit?</p>
+    </section>
 </main>
 <footer>
 
