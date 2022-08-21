@@ -7,68 +7,93 @@
     <style>
         header {
             background-color: white;
-            height: 60px;
             height: 5vw;
             width: 99vw;
+            width: 98.5vw;
             position: relative;
             box-shadow: 3px 2px 9px 2px #3C3C3C;
         }
-
         header > img {
             width: 200px;
             height: 70px;
         }
+
         header > ul {
             position: absolute;
             margin: 10px;
             right: 0;
             top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
         }
+
         header > ul > li {
             padding-left: 10px;
             padding-top: 10px;
             display: inline-block;
         }
 
-        main > nav > section
         main > nav > section:first-child {
             display: inline-block;
-            width: 200px;
-            position: relative;
             width: 25vw;
             height: 80vh;
+            z-index: -1;
+            width: 15vw;
+            height: 100vh;
             position: absolute;
             margin: 0;
             background-color: purple;
         }
-
         main > nav > section > ul {
             background-color: purple;
         }
 
-        main>section:first-child{
+        main>section:first-child
+        main > section:first-child {
             position: relative;
         }
 
-        div{
+        div
+        div {
             position: absolute;
+            z-index: -2;
+            left: 24.28vw;
             right: 0;
             top: 7vh;
+            margin: auto;
+            top: 7.5vh;
         }
-        div>img{
+        div>img {
             height: 24vw;
             width: 25vw;
             margin: 0;
         }
 
-        .para{
+        div > img {
+            height: 24vh;
+            width: 24vw;
+        }
+
+        .para
+        .para {
             position: absolute;
             top: 40vh;
             left: 24vw;
+            z-index: -2;
+            top: 31vh;
+            left: 24.28vw;
+            right: 0;
+            margin: auto;
+            background-color: white;
         }
-        .para>p{
+        .para>p
+
+        .para > p {
+            position: relative;
             margin-left: 20px;
         }
+
     </style>
 </head>
 <body>
@@ -91,15 +116,12 @@
                 <li>About Us</li>
             </ul>
         </section>
-        <section>
-
-        </section>
     </nav>
     <section>
         <div>
-            <img src="assets/img/gif.gif" alt="">
-            <img src="assets/img/gif.gif" alt="">
-            <img src="assets/img/gif.gif" alt="">
+            <img src="asserts/image/gif.gif" alt="">
+            <img src="asserts/image/gif.gif" alt="">
+            <img src="asserts/image/gif.gif" alt="">
         </div>
     </section>
     <section class="para">
@@ -132,10 +154,10 @@
         <p>A consequuntur deserunt dignissimos ducimus iure minus mollitia nam odio placeat porro quam, repudiandae
             velit. Ab aperiam assumenda consectetur consequatur cumque dolorem, ducimus eligendi itaque necessitatibus
             quae rem sit suscipit?</p>
+
     </section>
 </main>
 <footer>
-
 </footer>
 </body>
 </html>
