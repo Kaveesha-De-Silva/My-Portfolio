@@ -1,40 +1,36 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 main {
     position: relative;
     width: 99.5vw;
     height: 100vh;
 }
-
 ::-webkit-scrollbar {
     width: 0.5vw;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #8e8e8e;
 }
-
 header {
     position: sticky;
     top: 0;
     height: 5vh;
     padding: 10px;
 }
-
 main:first-child > header {
     background-color: red;
 }
-
 main:nth-child(2) > header {
     background-color: navy;
 }
-
 main:nth-child(3) > header {
     background-color: #313131;
 }
-
 main:nth-child(4) > header {
     background-color: maroon;
 }
-
 header > p {
     padding: 10px;
     margin: 0;
