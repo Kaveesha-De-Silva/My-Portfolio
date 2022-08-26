@@ -37,7 +37,7 @@
 
 <img src="assets/screenshot.png" alt="Logo" >
 
- <b>Hi,I'm Kaveesha Kavindi DE Silva and this is a protofolio web site project.</b>
+ <b>Hi,I'm Kaveesha Kavindi De Silva and this is a protofolio web site project.</b>
 
 ### Site Map
 
