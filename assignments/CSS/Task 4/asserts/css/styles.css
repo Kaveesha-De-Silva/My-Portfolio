@@ -1,7 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
 main {
     position: relative;
     width: 99.5vw;
@@ -37,4 +36,17 @@ header > p {
     font-weight: bold;
     color: white;
     font-size: 20px;
+}
+
+main > p {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    height: 10vh;
+    width: 10vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
