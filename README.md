@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="desktop/girl.jpg" alt="Logo" width="90" height="90">
+    <img src="girl.jpg" alt="girl" width="90" height="90">
   </a>
 
 <h1 align="center">MY PROFILE</h1>
