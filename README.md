@@ -35,7 +35,7 @@
 
 ## About The Project
 
-<img src="assets/screenshot.png" alt="Logo" >
+<img src="screenshot.png" alt="screenshot" >
 
  <b>Hi,I'm Kaveesha Kavindi De Silva and this is a protofolio web site project.</b>
 
