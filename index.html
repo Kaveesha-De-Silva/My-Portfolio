@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,187 +11,303 @@
     <meta content="Hi, I'm Kaveesha Kavindi De Silva.This is my profile" name="Description">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="green" name="theme-color">
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <style>
+
+        * {
+            font-family: 'Quicksand';
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        ul {
+            list-style-type: none;
+            display: flex;
+
+        }
+
+        li.horizontal {
+            float: right;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+
+        a.menu {
+            padding: 14px 15px;
+            font-size: 18px;
+        }
+
+        a.menu:hover {
+            font-weight: bold;
+        }
+
+        a.menu:hover {
+            font-weight: bold;
+        }
+
+        #menuBar {
+
+
+            right: 20px;
+            top: 30px;
+            position: fixed;
+        }
+
+        body{
+            padding-top: 85px;
+            width: 100%;
+        }
+        #header {
+            background-color: black;
+            height: 75px;
+            color: black;
+            position: fixed;
+            top: 0;
+            width: 100%
+
+        }
+
+        #home{
+            position: absolute;
+            top: 75px;
+            width: 100%;
+        }
+
+        #intro {
+            background-color: black;
+            height: 550px;
+        }
+
+        h1{
+            color: white;
+            font-weight: bold;
+            font-size: 85px;
+        }
+
+        h2{
+            color: black;
+            font-weight: bold;
+            font-size: 60px;
+            padding: 25px 25px 25px 25px;
+        }
+
+    </style>
 </head>
 
 
-<body>
-<h1>Hi, I'm Kaveesha Kavindi De Silva</h1>
-<h2>Software Engineer</h2>
-<h2>Web Developer</h2>
-<img src="assets/Snapchat-1701513253.jpg" width="180" height="400">
 
 <header>
     <nav>
-        <ul>
-            <li class=""><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Contact</a></li>
 
-        </ul>
+        <header id="header">
+            <nav id="menuBar">
+
+                <ul>
+                    <li><a class="menu" href="#home"><span style="color: white; ">Home</span></a>
+                    </li>
+                    <li><a class="menu" href="#about"><span style="color: white; ">About</span></a>
+                    </li>
+                    <li><a class="menu" href="#education"><span style="color: white; ">Education</span></a>
+                    </li>
+                    <li><a class="menu" href="#skills"><span style="color: white; ">Skills</span></a>
+                    </li>
+                    <li><a class="menu" href="#certificates"><span style="color: white; ">Certificates</span></a>
+                    </li>
+                    <li><a class="menu" href="#projects"><span style="color: white; ">Projects</span></a>
+                    </li>
+                    <li><a class="menu" href="#activities"><span style="color: white; ">Activities</span></a>
+                    </li>
+                    <li><a class="menu" href="#gallery"><span style="color: white; ">Gallery</span></a>
+                    </li>
+                    <li><a class="menu" href="#contact"><span style="color: white; ">Contact</span></a>
+                    </li>
+
+                </ul>
 
 
-    </nav>
-</header>
+            </nav>
+        </header>
 
-<main>
+        <main>
 
-    <!-- Start Home section-->
-    <section id="home">
-        <section>
-            <section>
-                <h1>Hi, I'm Kaveesha Kavindi De Silva</h1>
-                <h3>Software Engineer</h3>
-                <h3>Web Developer</h3>
+            <!-- Start Home section-->
+            <section id="home">
+                <section id="intro">
+                    <section >
+                        <h1 style="top: 220px; left: 25px">Hi, I'm Kaveesha Kavindi De Silva</h1>
+                        <h3 style="color:white;  font-size: 62px; font-weight: normal; position:absolute; top:300px; left: 25px">
+                            Software Engineer
+                            <br>
+                            Web Developer
+                        </h3>
+                    </section>
+                </section>
+
+                <address style="background-color:black;  height: 95px">
+                    <ul style="left: 25px; top:650px; position: absolute; cursor: pointer">
+                        <li class="horizontal">
+                            <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
+                               target="_blank"><img
+                                    alt="linkedin icon" height="50" src="assets/linkedin.png" width="50"></a></li>
+                        <li class="horizontal"><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"><img alt="git hub icon"
+                                                                                                                           height="50"
+                                                                                                                           src="assets/github.png"
+                                                                                                                           width="50"></a></li>
+                        <li class="horizontal"><a href="https://www.instagram.com/" target="_blank"><img alt="instagram icon"
+                                                                                                         height="50"
+                                                                                                         src="assets/instagram.png"
+                                                                                                         width="50"></a>
+                    </ul>
+                    <ul style="right: 25px; top:650px; position: absolute; cursor: pointer">
+                        <li class="horizontal"><a href="https://mail.google.com/" target="_blank"><img alt="gmail icon"
+                                                                                                       height="50"
+                                                                                                       src="assets/gmail.png"
+                                                                                                       width="50">kaveedesilva567@gmail.com</a>
+                        </li>
+                        <li class="horizontal"><a href="tel:+94760857876" target="_blank"><img alt="whtasapp icon" height="50"
+                                                                                               src="assets/whatsapp.png"
+                                                                                               width="50">+94760857876</a>
+                        </li>
+                    </ul>
+
+                </address>
             </section>
-            <img alt="Picture of Kaveesha" height="305" src="assets/1657106922051_trimmed.png" width="307">
+            <!-- End Home section-->
 
-        </section>
+            <!--Start About section-->
+            <section id="about" style="background-color:white; height: 645px; position:relative; top:720px; width: 100%" >
+                <h2>About</h2>
 
-        <address>
+                <img alt="Kaveesha Kavindi" height="480" src="assets/1657106922051_trimmed.png" width="593">
+                <!--Start Info list -->
+                <aside>
+                    <ul style="list-style: none; position:absolute; top:830px; right:450px;">
+                        <ul>
+                            <li>I am an individual who is willing to obtain
+                                <br>
+                                challenges and responsibilities to utilize
+                                <br>
+                                and enhance my skills, experience and
+                                <br>
+                                knowledge to bring out the best in me.</li>
+                            <br>
+                            Name: Kaveesha Kavindi De Silva
+                            <br>
+                            Age: 22 Years Old
+                            <br>
+                            Address: Richmondhill Residencies, Wakunugoda, Galle
+                            <br>
+                            Email: kaveedesilva567@gmail.com
+                            <br>
+                            Contact: +94760857876
+                            <br>
+                            <br>
+                            <button><a download="Kaveesha-CV.pdf" href="assets/Curriculum%20Vitae.pdf">Download CV</a></button>
+                        </ul>
+                    </ul>
+                </aside>
+                <!--End Info list -->
+            </section>
+            <!--End About section-->
 
-            <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
-               target="_blank"><img
-                    alt="linkedin icon" height="50" src="assets/linkedin.png" width="50"></a>
+            <!--Start Eductaion section-->
+            <section id="education" style="background-color:#E9E9E9; height: 645px " >
+                <h2>Education</h2>
+                <img alt="education progress" src="assets/education.png">
+            </section>
+            <!--End Eductaion section-->
 
-            <a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"><img alt="git hub icon" height="50"
-                                                                       src="assets/github.png"
-                                                                       width="50"></a>
+            <!--Start Skills section-->
+            <section id="skills" style="background-color: white; height: 645px">
+                <h2>Skills</h2>
 
-            <a href="https://www.instagram.com/" target="_blank"><img alt="instagram icon" height="50"
-                                                                      src="assets/instagram.png" width="50"></a>
+                <h3>Languages</h3>
 
-            <a href="https://mail.google.com/" target="_blank"><img alt="gmail icon" height="50"
-                                                                    src="assets/gmail.png" width="50">kaveedesilva567@gmail.com</a>
+                <h3>Tools</h3>
 
-            <a href="tel:+94771167897" target="_blank"><img alt="whtasapp icon" height="50"
-                                                            src="assets/whatsapp.png" width="50">+94760857876</a>
+            </section>
+            <!--End Skills section-->
 
-        </address>
+            <!--Start Certificates section-->
+            <section id="certificates" style="background-color:#EEEEEE; height: 645px">
+                <h2>Certificates</h2>
+            </section>
+            <!--End Certificates section-->
 
-    </section>
-    <!-- End Home section-->
+            <!--Start Projects section-->
+            <section id="projects" style="background-color:#EEEEEE; height: 645px">
+                <h2>Projects</h2>
+            </section>
+            <!--End Projects section-->
 
-    <!--Start About section-->
-    <section id="about">
-        <h1>About</h1>
+            <!--Start Activities section-->
+            <section id="activities" style="background-color:#EEEEEE; height: 645px">
+                <h2>Activities</h2>
+            </section>
+            <!--End Activities section-->
 
-        <img alt="Kaveesha Kavindi" height="480" src="assets/1657106922051_trimmed.png" width="593">
-        <!--Start Info list -->
-        <aside>
-            <ul>
-                <li>I am an individual who is willing to obtain
+            <!--Start Gallery section -->
+            <section id="gallery" style="background-color: white; height: 645px">
+                <h2>Gallery</h2>
+            </section>
+            <!--End Gallery section -->
+
+        </main>
+        <footer id="contact" style="background-color:#BABABA; height: 600px" >
+            <h1>Contact</h1>
+            <address>
+                <ul>
+                    <li> Address: Richmondhill Residencies, Wakunugoda, Galle</li>
                     <br>
-                    challenges and responsibilities to utilize
+                    <li>Email: kaveedesilva567@gmail.com</li>
                     <br>
-                    and enhance my skills, experience and
-                    <br>
-                    knowledge to bring out the best in me.</li>
-                <br>
-                Name: Kaveesha Kavindi De Silva
-                <br>
-                Age: 22 Years Old
-                <br>
-                Address: Richmondhill Residencies, Wakunugoda, Galle
-                <br>
-                Email: kaveedesilva567@gmail.com
-                <br>
-                Contact: +94760857876
-                <br>
-                <br>
-                <button><a href="assets/Curriculum%20Vitae.pdf" download="Kaveesha-CV.pdf">Download CV</a></button>
-            </ul>
-        </aside>
-        <!--End Info list -->
-    </section>
-    <!--End About section-->
+                    <li> Contact: +94760857876</li>
 
-    <!--Start Eductaion section-->
-    <section id="education">
-        <h1>Education</h1>
-        <img alt="education progress" src="assets/education.png">
-    </section>
-    <!--End Eductaion section-->
+                </ul>
 
-    <!--Start Skills section-->
-    <section id="skills">
-        <h1>Skills</h1>
-
-        <h3>Languages</h3>
-
-        <h3>Tools</h3>
-
-    </section>
-    <!--End Skills section-->
+                <ul>
+                    <li><a href="mailto:kaveedesilva567@gmail.com"><img alt="mail icon" height="51" src="assets/gmail.png"
+                                                                        width="55">kaveedesilva567@gmail.com</a></li>
+                    <li><a href="tel:+94760857876"><img alt="whatsapp icon" height="51" src="assets/whatsapp.png"
+                                                        width="55">+94760857876</a></li>
+                </ul>
 
 
-    <!--Start Projects section-->
-    <section id="projects">
-        <h1>Projects</h1>
-    </section>
-    <!--End Projects section-->
+            </address>
 
-    <!--Start Gallery section -->
-    <section id="gallery">
-        <h1>Gallery</h1>
-    </section>
-    <!--End Gallery section -->
+            <section>
+                <form action="https://mail.google.com/">
+                    <label>Name</label><br>
+                    <input id="name" type="text"><br>
+                    <label for="email">Email</label><br>
+                    <input id="email" type="text"><br>
+                    <label for="subject">Subject</label><br>
+                    <input id="subject" type="text"><br>
+                    <label for="message">Message</label><br>
+                </form>
+                <input id="message" type="text"><br>
 
-</main>
-
-<footer id="contact">
-    <h1>Contact</h1>
-    <address>
-        <ul>
-            <li> Address: Richmondhill Residencies, Wakunugoda, Galle</li>
-            <br>
-            <li>Email: kaveedesilva567@gmail.com</li>
-            <br>
-            <li> Contact: +94760857876</li>
-
-        </ul>
-
-        <section>
-            <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
-               target="_blank"><img
-                    alt="linkedin icon" height="50" src="assets/linkedin.png" width="50"></a>
-            <a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"><img alt="git hub icon" height="50"
-                                                                       src="assets/github.png"
-                                                                       width="50"></a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img alt="instagram icon" height="50" src="assets/instagram.png" width="50">
+                <button>send</button>
 
 
-            </a>
-        </section>
+                </form>
 
 
-    </address>
 
-    <section>
-        <form>
-            <label>Name</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="subject">Subject</label><br>
-            <input type="text" id="subject" name="subject"><br>
-            <label for="message">Message</label><br>
-            <input type="text" id="message" name="message"><br>
-        </form>
-
-
-        <button><a href="mailto:kaveedesilva567@gmail.com">send</a></button>
-
-    </section>
+            </section>
 
 
 
 </footer>
 
-</body>
+</nav>
 
-</html>
+</header>
