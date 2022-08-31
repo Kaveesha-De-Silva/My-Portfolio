@@ -81,9 +81,11 @@
             width: 100%;
         }
 
-        #intro {
-            background-color: black;
-            height: 550px;
+        #intro img{
+            position: relative;
+            background: url("assets/6183116.jpg");
+            height: 50vw;
+            width: 100vw;
         }
 
         h1{
@@ -99,11 +101,28 @@
             padding: 25px 25px 25px 25px;
         }
 
+        address{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /*address div:nth-child(1){*/
+        /*    position: relative;*/
+        /*    display: flex;*/
+        /*    align-items: center;*/
+        /*    justify-content: center;*/
+        /*    width: max-content;*/
+        /*}*/
+
+        /*address ul:nth-child(1) img{*/
+        /*    margin-right: 20px;*/
+        /*}*/
+
     </style>
 </head>
 
-
-
+<body>
 <header>
     <nav>
 
@@ -141,6 +160,7 @@
             <!-- Start Home section-->
             <section id="home">
                 <section id="intro">
+                    <img src="assets/6183116.jpg" alt="">
                     <section >
                         <h1 style="top: 220px; left: 25px">Hi, I'm Kaveesha Kavindi De Silva</h1>
                         <h3 style="color:white;  font-size: 62px; font-weight: normal; position:absolute; top:300px; left: 25px">
@@ -152,31 +172,35 @@
                 </section>
 
                 <address style="background-color:black;  height: 95px">
-                    <ul style="left: 25px; top:650px; position: absolute; cursor: pointer">
-                        <li class="horizontal">
-                            <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
-                               target="_blank"><img
-                                    alt="linkedin icon" height="50" src="assets/linkedin.png" width="50"></a></li>
-                        <li class="horizontal"><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"><img alt="git hub icon"
-                                                                                                                           height="50"
-                                                                                                                           src="assets/github.png"
-                                                                                                                           width="50"></a></li>
-                        <li class="horizontal"><a href="https://www.instagram.com/" target="_blank"><img alt="instagram icon"
-                                                                                                         height="50"
-                                                                                                         src="assets/instagram.png"
-                                                                                                         width="50"></a>
-                    </ul>
-                    <ul style="right: 25px; top:650px; position: absolute; cursor: pointer">
-                        <li class="horizontal"><a href="https://mail.google.com/" target="_blank"><img alt="gmail icon"
-                                                                                                       height="50"
-                                                                                                       src="assets/gmail.png"
-                                                                                                       width="50">kaveedesilva567@gmail.com</a>
-                        </li>
-                        <li class="horizontal"><a href="tel:+94760857876" target="_blank"><img alt="whtasapp icon" height="50"
-                                                                                               src="assets/whatsapp.png"
-                                                                                               width="50">+94760857876</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul style="left: 25px; top:650px; position: absolute; cursor: pointer">
+                            <li class="horizontal">
+                                <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
+                                   target="_blank"><img
+                                        alt="linkedin icon" height="50px" src="assets/linkedin.png" width="50px"></a></li>
+                            <li class="horizontal"><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"><img alt="git hub icon"
+                                                                                                                               height="50"
+                                                                                                                               src="assets/github.png"
+                                                                                                                               width="50"></a></li>
+                            <li class="horizontal"><a href="https://www.instagram.com/" target="_blank"><img alt="instagram icon"
+                                                                                                             height="50"
+                                                                                                             src="assets/instagram.png"
+                                                                                                             width="50"></a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="right: 25px; top:650px; position: absolute; cursor: pointer">
+                            <li class="horizontal"><a href="https://mail.google.com/" target="_blank"><img alt="gmail icon"
+                                                                                                           height="50"
+                                                                                                           src="assets/gmail.png"
+                                                                                                           width="50">kaveedesilva567@gmail.com</a>
+                            </li>
+                            <li class="horizontal"><a href="tel:+94760857876" target="_blank"><img alt="whtasapp icon" height="50"
+                                                                                                   src="assets/whatsapp.png"
+                                                                                                   width="50">+94760857876</a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </address>
             </section>
@@ -219,14 +243,14 @@
             <!--End About section-->
 
             <!--Start Eductaion section-->
-            <section id="education" style="background-color:#E9E9E9; height: 645px " >
+            <section id="education"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%" >
                 <h2>Education</h2>
                 <img alt="education progress" src="assets/education.png">
             </section>
             <!--End Eductaion section-->
 
             <!--Start Skills section-->
-            <section id="skills" style="background-color: white; height: 645px">
+            <section id="skills" style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
                 <h2>Skills</h2>
 
                 <h3>Languages</h3>
@@ -237,77 +261,67 @@
             <!--End Skills section-->
 
             <!--Start Certificates section-->
-            <section id="certificates" style="background-color:#EEEEEE; height: 645px">
+            <section id="certificates"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
                 <h2>Certificates</h2>
             </section>
             <!--End Certificates section-->
 
             <!--Start Projects section-->
-            <section id="projects" style="background-color:#EEEEEE; height: 645px">
+            <section id="projects"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
                 <h2>Projects</h2>
             </section>
             <!--End Projects section-->
 
             <!--Start Activities section-->
-            <section id="activities" style="background-color:#EEEEEE; height: 645px">
+            <section id="activities"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
                 <h2>Activities</h2>
             </section>
             <!--End Activities section-->
 
             <!--Start Gallery section -->
-            <section id="gallery" style="background-color: white; height: 645px">
+            <section id="gallery"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
                 <h2>Gallery</h2>
             </section>
             <!--End Gallery section -->
 
         </main>
-        <footer id="contact" style="background-color:#BABABA; height: 600px" >
-            <h1>Contact</h1>
+        <footer id="contact">
+            <h3>Contact</h3>
             <address>
                 <ul>
-                    <li> Address: Richmondhill Residencies, Wakunugoda, Galle</li>
-                    <br>
-                    <li>Email: kaveedesilva567@gmail.com</li>
-                    <br>
-                    <li> Contact: +94760857876</li>
-
+                    <li><i class="fas fa-street-view"></i></li>
+                    <li><i class="fas fa-envelope-square"></i></li>
+                    <li><i class="fab fa-whatsapp-square"></i></li>
                 </ul>
-
                 <ul>
-                    <li><a href="mailto:kaveedesilva567@gmail.com"><img alt="mail icon" height="51" src="assets/gmail.png"
-                                                                        width="55">kaveedesilva567@gmail.com</a></li>
-                    <li><a href="tel:+94760857876"><img alt="whatsapp icon" height="51" src="assets/whatsapp.png"
-                                                        width="55">+94760857876</a></li>
+                    <li>Richmondhill Residencies, <br> Wakunugoda, <br> Galle, <br> Srilanka.</li>
+                    <li><a href="mailto:kaveedesilva567@gmail.com">kaveedesilva567@gmail.com</a></li>
+                    <li><a href="tel:+94771167897">+94760857876</a></li>
                 </ul>
-
-
             </address>
-
-            <section>
+            <aside>
+                <ul>
+                    <li><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"></a><i class="fab fa-github-square"></i></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
+                           target="_blank"></a><i class="fab fa-linkedin"></i></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i></li>
+                </ul>
+            </aside>
+            <aside>
                 <form action="https://mail.google.com/">
-                    <label>Name</label><br>
-                    <input id="name" type="text"><br>
-                    <label for="email">Email</label><br>
-                    <input id="email" type="text"><br>
-                    <label for="subject">Subject</label><br>
-                    <input id="subject" type="text"><br>
-                    <label for="message">Message</label><br>
+                    <label>Name</label>
+                    <input id="name" type="text">
+                    <label for="email">Email</label>
+                    <input id="email" type="text">
+                    <label for="subject">Subject</label>
+                    <input id="subject" type="text">
+                    <label for="message">Message</label>
+                    <input id="message" type="text" ><br>
+                    <button>send</button>
                 </form>
-                <input id="message" type="text"><br>
-
-                <button>send</button>
-
-
-                </form>
-
-
-
-            </section>
-
-
-
-</footer>
-
-</nav>
-
-</header>
+            </aside>
+            <small>Copyright ©️ 2021 Kaveesha Inc. All rights reserved.</small>
+        </footer>
+        </body>
+        </html>

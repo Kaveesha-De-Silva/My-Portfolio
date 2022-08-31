@@ -1,0 +1,69 @@
+{
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline;
+}
+body{
+    position: relative;
+    top:10vh;
+    /*   padding-top: 10vh;*/
+}
+h1{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*main > section, footer {
+
+main > section, footer {
+    width: 100%;
+    height: 86vh;
+    height: 90vh;
+    position: relative;
+}
+
+h3{
+    font-size: 5em;
+    font-weight: bolder;
+    position: absolute;
+    top: 3%;
+    left: 2%
+}
+/*
+figure,figcaption,ul li{
+    display: inline;
+}
+a:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+h1, h2 {
+    color: white;
+    margin: 0;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 6em;
+}
+h2 {
+    font-weight: lighter;
+    font-size: 5em;
+}
+h3{
+    font-size: 4em;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    padding-top: 10vh;
+    z-index: 1;
+}*/
+/*******************/
