@@ -84,7 +84,7 @@
         #intro img{
             position: relative;
             background: url("assets/6183116.jpg");
-            height: 50vw;
+            height: 80vh;
             width: 100vw;
         }
 
@@ -100,6 +100,7 @@
             font-size: 60px;
             padding: 25px 25px 25px 25px;
         }
+
 
         /*address{
             background-color: black;
@@ -120,6 +121,23 @@
         /*address ul:nth-child(1) img{*/
         /*    margin-right: 20px;*/
         /*}*/
+        input{
+            width: 612px;
+            height: 70px;
+        }
+
+        #intro{
+            height: max-content;
+        }
+
+        #intro>section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #intro>section>button{
+            z-index: 2;
+        }
 
     </style>
 </head>
@@ -159,27 +177,21 @@
 
             <!-- Start Home section-->
             <section id="home">
-                <section id="intro">
+                <section style="background: black" id="intro">
                     <img src="assets/6183116.jpg" alt="">
                     <section >
                         <h1 style="color:white;  font-size: 62px; font-weight: bolder; position:absolute; top:150px; left: 25px">Hi, I'm Kaveesha Kavindi De Silva</h1>
                         <h3 style="color:white;  font-size: 40px; font-weight: normal; position:absolute; top:250px; left: 25px">
                             Software Engineer
-                            <br>
-                            Web Developer
                         </h3>
-                        <div class="w3-container">
-                            <h2>Buttons (w3-button)</h2>
-                            <input type="button" class="w3-button w3-black" value="Input Button">
-                            <button class="w3-button w3-black">Button Button</button>
-                            <a href="#" class="w3-button w3-black">Link Button</a>
-                        </div>
+                        <h3 style="color:white;  font-size: 40px; font-weight: normal; position:absolute; top:300px; left: 25px;">Web Developer</h3>
+                        <button style="color:white;  font-size: 40px; font-weight: normal; position:absolute; top:350px; left: 25px;">Hire me</button>
                     </section>
                 </section>
 
                 <address style="background-color:black;  height: 95px">
                     <div>
-                        <ul style="left: 25px; top:650px; position: absolute; cursor: pointer">
+                        <ul style="left: 25px; top:550px; position: absolute; cursor: pointer">
                             <li class="horizontal">
                                 <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
                                    target="_blank"><img
@@ -195,7 +207,7 @@
                         </ul>
                     </div>
                     <div>
-                        <ul style="right: 25px; top:650px; position: absolute; cursor: pointer">
+                        <ul style="right: 25px; top:550px; position: absolute; cursor: pointer">
                             <li class="horizontal"><a href="https://mail.google.com/" target="_blank"><img alt="gmail icon"
                                                                                                            height="50"
                                                                                                            src="assets/gmail.png"
@@ -315,7 +327,7 @@
                 </ul>
             </aside>
             <aside>
-                <form action="https://mail.google.com/">
+                <form style="display: flex; flex-direction: column" action="https://mail.google.com/">
                     <label>Name</label>
                     <input id="name" type="text">
                     <label for="email">Email</label>
