@@ -4,6 +4,10 @@ body {
     background-position: right;
 }
 
+main{
+    height: 100vh;
+}
+
 .blue-button {
     background: darkblue;
     border: darkblue;
