@@ -1,0 +1,14 @@
+body {
+    background: url("../image/top-view-assortment-vegetables-grocery-bag.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.blue-button {
+    background: darkblue;
+    border: darkblue;
+}
+
+.blue-text{
+    color: darkblue;
+}
