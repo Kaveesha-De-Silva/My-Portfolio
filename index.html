@@ -139,6 +139,24 @@
             z-index: 2;
         }
 
+        @media all and (min-width: 0) and (max-width: 320px) {
+            #home h1 {
+                color: white;
+                font-size: 42px !important;
+                font-weight: bolder;
+                position: absolute;
+                top: 90px !important;
+                left: 25px;
+            }
+            #home button{
+           top: 450px !important;
+            }
+
+        }
+        @media all and (max-width: 428px) {
+
+        }
+
     </style>
 </head>
 
@@ -302,10 +320,10 @@
             </section>
             <!--End Gallery section -->
 
-        </main>
-        <footer id="contact" style="background-color:black; height: 645px; position:relative; top:720px; width: 100%">
-            <h2><span style="color: white; ">Contact</span></h2>
+        </main >
+        <footer id="contact" style="display: flex; justify-content: space-around; background-color:black; height: 645px; position:relative; top:720px; width: 96vw">
             <address>
+                <h2><span style="color: white; ">Contact</span></h2>
                 <ul>
                     <li><i class="fas fa-street-view"></i></li>
                     <li><i class="fas fa-envelope-square"></i></li>
@@ -338,8 +356,9 @@
                     <input id="message" type="text" ><br>
                     <button>send</button>
                 </form>
+                <small>Copyright ©️ 2021 Kaveesha Inc. All rights reserved.</small>
             </aside>
-            <small>Copyright ©️ 2021 Kaveesha Inc. All rights reserved.</small>
+
         </footer>
         </body>
         </html>
