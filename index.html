@@ -12,7 +12,10 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="green" name="theme-color">
 
+    <link href='assets/fonts/css/all.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/home.css" rel="stylesheet">
     <style>
 
         * {
@@ -142,15 +145,72 @@
         @media all and (min-width: 0) and (max-width: 320px) {
             #home h1 {
                 color: white;
-                font-size: 42px !important;
+                font-size: 18px !important;
                 font-weight: bolder;
                 position: absolute;
-                top: 90px !important;
-                left: 25px;
+                top: 20px !important;
+                left: 5px;
             }
             #home button{
-           top: 450px !important;
+           top: 160px !important;
+                font-size: 18px !important;
             }
+            #intro img {
+                position: relative;
+                background: url(assets/6183116.jpg);
+                height: 40vh;
+                width: 100vw;
+            }
+
+            #home h3:nth-child(2) {
+                display: block;
+                font-size: 1.4em !important;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+                top: 70px !important;
+            }
+
+            #home h3:nth-child(3) {
+                display: block;
+                font-size: 1.4em !important;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+                top: 100px !important;
+            }
+
+           #home a> img {
+            height: 30px !important;
+            aspect-ratio: auto 50 / 50;
+            width: 30px !important;
+        }
+
+            #home ul {
+                right: 25px;
+                top: 280px !important;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #about {
+                background-color: white;
+                height: 645px;
+                position: relative;
+                top: 400px !important;
+                width: 100%;
+            }
+
+        #about h2 {
+            color: black;
+            font-weight: bold;
+            font-size: 30px !important;
+            padding: 25px 25px 25px 25px;
+        }
 
         }
         @media all and (max-width: 428px) {
@@ -203,7 +263,7 @@
                             Software Engineer
                         </h3>
                         <h3 style="color:white;  font-size: 40px; font-weight: normal; position:absolute; top:300px; left: 25px;">Web Developer</h3>
-                        <button style="color:white;  font-size: 40px; font-weight: normal; position:absolute; top:350px; left: 25px;">Hire me</button>
+                        <button style="color:white; background: transparent; font-size: 40px; font-weight: normal; position:absolute; top:350px; left: 25px;">Hire me</button>
                     </section>
                 </section>
 
