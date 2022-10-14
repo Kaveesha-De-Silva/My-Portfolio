@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>My Profile</title>
 
     <title>Profile | Kaveesha Kavindi De Silva</title>
     <link href="assets/user.png" rel="icon">
@@ -12,522 +12,314 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <meta content="green" name="theme-color">
 
-    <link href='assets/fonts/css/all.css' rel='stylesheet'>
+
+    <link href='assets/css/fontawesome_6.0.0/css/all.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/commonstyles.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
     <link href="assets/css/home.css" rel="stylesheet">
     <link href="assets/css/about.css" rel="stylesheet">
+    <link href="assets/css/education.css" rel="stylesheet">
     <link href="assets/css/skills.css" rel="stylesheet">
+    <link href="assets/css/projects.css" rel="stylesheet">
+    <link href="assets/css/gallery.css" rel="stylesheet">
     <link href="assets/css/contact.css" rel="stylesheet">
 
-    <style>
-
-        * {
-            font-family: 'Quicksand';
-            margin: 0;
-            padding: 0;
-        }
-
-
-
-        ul {
-            list-style-type: none;
-            display: flex;
-
-        }
-
-        li.horizontal {
-            float: right;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-            cursor: pointer;
-        }
-
-
-        a.menu {
-            padding: 14px 15px;
-            font-size: 18px;
-        }
-
-        a.menu:hover {
-            font-weight: bold;
-        }
-
-        a.menu:hover {
-            font-weight: bold;
-        }
-
-        #menuBar {
-
-
-            right: 20px;
-            top: 30px;
-            position: fixed;
-        }
-
-        body{
-            padding-top: 85px;
-            width: 100%;
-        }
-        #header {
-            background-color: black;
-            height: 75px;
-            color: black;
-            position: fixed;
-            top: 0;
-            width: 100%
-
-        }
-
-        #home{
-            position: absolute;
-            top: 75px;
-            width: 100%;
-        }
-
-        #intro img{
-            position: relative;
-            background: url("assets/6183116.jpg");
-            height: 80vh;
-            width: 100vw;
-        }
-
-        h1{
-            color: white;
-            font-weight: bold;
-            font-size: 85px;
-        }
-
-        h2{
-            color: black;
-            font-weight: bold;
-            font-size: 60px;
-            padding: 25px 25px 25px 25px;
-        }
-
-
-        /*address{
-            background-color: black;
-            height: 75px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }*/
-
-        /*address div:nth-child(1){*/
-        /*    position: relative;*/
-        /*    display: flex;*/
-        /*    align-items: center;*/
-        /*    justify-content: center;*/
-        /*    width: max-content;*/
-        /*}*/
-
-        /*address ul:nth-child(1) img{*/
-        /*    margin-right: 20px;*/
-        /*}*/
-        input{
-            width: 612px;
-            height: 70px;
-        }
-
-        #intro{
-            height: max-content;
-        }
-
-        #intro>section{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        #intro>section>button{
-            z-index: 2;
-        }
-
-        @media all and (min-width: 0) and (max-width: 320px) {
-            #home h1 {
-                color: white;
-                font-size: 18px !important;
-                font-weight: bolder;
-                position: absolute;
-                top: 20px !important;
-                left: 5px;
-            }
-            #home button{
-           top: 160px !important;
-                font-size: 18px !important;
-            }
-            #intro img {
-                position: relative;
-                background: url(assets/6183116.jpg);
-                height: 40vh;
-                width: 100vw;
-            }
-
-            #home h3:nth-child(2) {
-                display: block;
-                font-size: 1.4em !important;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                font-weight: bold;
-                top: 70px !important;
-            }
-
-            #home h3:nth-child(3) {
-                display: block;
-                font-size: 1.4em !important;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                font-weight: bold;
-                top: 100px !important;
-            }
-
-           #home a> img {
-            height: 30px !important;
-            aspect-ratio: auto 50 / 50;
-            width: 30px !important;
-        }
-
-            #home ul {
-                right: 25px;
-                top: 280px !important;
-                position: absolute;
-                cursor: pointer;
-            }
-
-            #about {
-                background-color: white;
-                height: 645px;
-                position: relative;
-                top: 400px !important;
-                width: 100%;
-            }
-
-        #about h2 {
-            color: black;
-            font-weight: bold;
-            font-size: 30px !important;
-            padding: 25px 25px 25px 25px;
-        }
-
-        }
-        @media all and (max-width: 428px) {
-
-        }
-
-    </style>
 </head>
+
 
 <body>
 
-        <header id="header">
-            <nav id="menuBar">
+<header>
 
-                <ul>
-                    <li><a class="menu" href="#home"><span style="color: white; ">Home</span></a>
-                    </li>
-                    <li><a class="menu" href="#about"><span style="color: white; ">About</span></a>
-                    </li>
-                    <li><a class="menu" href="#education"><span style="color: white; ">Education</span></a>
-                    </li>
-                    <li><a class="menu" href="#skills"><span style="color: white; ">Skills</span></a>
-                    </li>
-                    <li><a class="menu" href="#certificates"><span style="color: white; ">Certificates</span></a>
-                    </li>
-                    <li><a class="menu" href="#projects"><span style="color: white; ">Projects</span></a>
-                    </li>
-                    <li><a class="menu" href="#activities"><span style="color: white; ">Activities</span></a>
-                    </li>
-                    <li><a class="menu" href="#gallery"><span style="color: white; ">Gallery</span></a>
-                    </li>
-                    <li><a class="menu" href="#contact"><span style="color: white; ">Contact</span></a>
-                    </li>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!--Home Start-->
+    <section id="home">
 
-                </ul>
+        <section>
+            <h1> Hi, I'm Kaveesha Kavindi De Silva</h1>
+            <h2>I'm a Software Engineer</h2>
+            <h2><img src="https://readme-typing-svg.herokuapp.com?font=Quicksand&color=ffffff&size=50&center=false&vCenter=true&height=50&width=600&lines=I'm a Software Engineer;" alt="Title"/></h2>
 
-
-            </nav>
-        </header>
-
-        <main>
-
-            <!--Home Start-->
-            <section id="home">
-
-                <section>
-                    <h1> Hi, I'm Kaveesha Kavindi De Silva</h1>
-                    <h2>Software Engineer</h2>
-                    <h2>Web Developer</h2>
-                    <h2><img src="https://readme-typing-svg.herokuapp.com?font=Quicksand&color=ffffff&size=50&center=false&vCenter=true&height=50&width=600&lines=Software Engineer and a Web Developer;" alt="Title"/></h2>
-
-                        <button>Hire Me</button>
-                    </aside>
+            <button>Hire Me</button>
 
 
-                </section>
+        </section>
 
+        <address>
 
-                <address>
-
-                    <ul>
-                        <li><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"></a><i class="fab fa-github-square"></i></li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
-                               target="_blank"></a><i class="fab fa-linkedin"></i></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i>
-                        </li>
-                    </ul>
-
-                    <aside>
-                        <a href="mailto:kaveedesilva567@gmail.com" target="_blank"><i
-                                class="fas fa-envelope-square"></i></a><a href="mailto:kaveedesilva567@gmail.com" target="_blank">
-                        <p>kaveedesilva567@gmail.com</p></a>
-                        <a href="tel:+94760857876" target="_blank"><i class="fab fa-whatsapp-square"></i></a><a
-                            href="tel:+94760857876" target="_blank"><p>+94760857876</p></a>
-
-
-                    </aside>
-
-
-                </address>
-
-
-            </section>
-            <!--Home End-->
-
-            <!--Start About section-->
-            <section id="about" style="background-color:white; height: 645px; position:relative; top:720px; width: 100%" >
-                <h2>About</h2>
-
-                <img alt="Kaveesha Kavindi" height="2110" src="assets/1657106922051_trimmed.png" width="1080">
-                <!--Start Info list -->
-                <aside>
-                    <ul style="list-style: none; position:absolute; top:830px; right:450px;">
-                        <ul>
-                            <li>I am an individual who is willing to obtain
-                                <br>
-                                challenges and responsibilities to utilize
-                                <br>
-                                and enhance my skills, experience and
-                                <br>
-                                knowledge to bring out the best in me.</li>
-                            <br>
-                            Name: Kaveesha Kavindi De Silva
-                            <br>
-                            Age: 22 Years Old
-                            <br>
-                            Address: Richmondhill Residencies, Wakunugoda, Galle
-                            <br>
-                            Email: kaveedesilva567@gmail.com
-                            <br>
-                            Contact: +94760857876
-                            <br>
-                            <br>
-                            <button><a download="Kaveesha-CV.pdf" href="assets/Curriculum%20Vitae.pdf">Download CV</a></button>
-                        </ul>
-                    </ul>
-                </aside>
-                <!--End Info list -->
-            </section>
-            <!--End About section-->
-
-            <!--Start Eductaion section-->
-            <section id="education"  style="background-color:dimgrey; height: 645px; position:relative; top:720px; width: 200%" >
-                <h2>Education</h2>
-                <img alt="education progress" src="assets/education.png">
-            </section>
-            <!--End Eductaion section-->
-
-            <!--Skill Start-->
-            <section id="skills">
-                <h3>Skills</h3>
-                <section>
-                    <h4>Languages</h4>
-                    <i class="fas fa-chevron-circle-left"></i>
-                    <ul class="skillList">
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">
-                                <figure>
-                                    <img alt="icon" height="512" src="assets/java.png">
-                                    <figcaption>Java</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
-                                <figure>
-                                    <img alt="icon" height="100" src="assets/html5.png">
-                                    <figcaption>HTML</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-                                <figure><img alt="icon" height="85" src="assets/js.png">
-                                    <figcaption>Java Script</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/JavaFX" target="_blank">
-                                <figure>
-                                    <img alt="icon" height="75" src="assets/java-fx.png">
-                                    <figcaption>Java-Fx</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
-                                <figure>
-                                    <img alt="icon" height="106" src="assets/css.png">
-                                    <figcaption>CSS</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-
-
-                    </ul>
-
-                    <i class="fas fa-chevron-circle-right"></i>
-
-                </section>
-
-                <section>
-                    <h4>Tools</h4>
-                    <i class="fas fa-chevron-circle-left"></i>
-                    <ul class="skillList">
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/Spring_Framework#Spring_Boot" target="_blank">
-                                <figure>
-                                    <img alt="icon" src="assets/springBoot.png">
-                                    <figcaption>Spring Boot</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/IntelliJ_IDEA" target="_blank">
-                                <figure>
-                                    <img alt="icon" src="assets/intellijIdea.png">
-                                    <figcaption>IntelliJ IDEA</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/NetBeans" target="_blank">
-                                <figure>
-                                    <img alt="icon" src="assets/netbeans.png">
-                                    <figcaption>NetBeans</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/Angular" target="_blank">
-                                <figure><img alt="icon" src="assets/angular.png">
-                                    <figcaption>Angular</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://en.wikipedia.org/wiki/Hibernate_(framework)" target="_blank">
-                                <figure>
-                                    <img alt="icon" src="assets/hibernate.png">
-                                    <figcaption>Hibernate</figcaption>
-                                </figure>
-                            </a>
-                        </li>
-
-
-                    </ul>
-
-                    <i class="fas fa-chevron-circle-right"></i>
-                </section>
-
-
-            </section>
-            <!--Skill End-->
-
-            </section>
-            <!--End Skills section-->
-
-            <!--Start Certificates section-->
-            <section id="certificates"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
-                <h2>Certificates</h2>
-            </section>
-            <!--End Certificates section-->
-
-            <!--Start Projects section-->
-            <section id="projects"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
-                <h2>Projects</h2>
-            </section>
-            <!--End Projects section-->
-
-            <!--Start Activities section-->
-            <section id="activities"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
-                <h2>Activities</h2>
-            </section>
-            <!--End Activities section-->
-
-            <!--Start Gallery section -->
-            <section id="gallery"  style="background-color:white; height: 645px; position:relative; top:720px; width: 100%">
-                <h2>Gallery</h2>
-            </section>
-            <!--End Gallery section -->
-
-        </main>
-
-        <footer id="contact">
-            <h3>Contact</h3>
-            <address>
-                <ul>
-                    <li><i class="fas fa-street-view"></i></li>
-                    <li><i class="fas fa-envelope-square"></i></li>
-                    <li><i class="fab fa-whatsapp-square"></i></li>
-                </ul>
-
-                <ul>
-                    <li>Richmondhill Residencies,<br>Wakunugoda,<br>Galle,<br>Srilanka.</li>
-                    <li><a href="mailto:rashiday123@gmail.com">kaveedesilva567@gmail.com</a></li>
-                    <li><a href="tel:+94771167897">+94760857876</a></li>
-                </ul>
-            </address>
+            <ul>
+                <li><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"></a><i class="fab fa-github-square"></i></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
+                       target="_blank"></a><i class="fab fa-linkedin"></i></li>
+                <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i>
+                </li>
+            </ul>
 
             <aside>
-                <ul>
-                    <li><a href="https://github.com/Kaveesha-Kavindi-De-Silva" target="_blank"></a><i class="fab fa-github-square"></i></li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
-                           target="_blank"></a><i class="fab fa-linkedin"></i></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i></li>
-                </ul>
+                <a href="mailto:kaveedesilva567@gmail.com" target="_blank"><i
+                        class="fas fa-envelope-square"></i></a><a href="mailto:kaveedesilva567@gmail.com" target="_blank">
+                <p>kaveedesilva567@gmail.com</p></a>
+                <a href="tel:+94760857876" target="_blank"><i class="fab fa-whatsapp-square"></i></a><a
+                    href="tel:+94760857876" target="_blank"><p>+94760857876</p></a>
+
+
             </aside>
 
-            <aside>
-                <form action="https://mail.google.com/">
-                    <label>Name</label>
-                    <input id="name" type="text">
-                    <label for="email">Email</label>
-                    <input id="email" type="text">
-                    <label for="subject">Subject</label>
-                    <input id="subject" type="text">
-                    <label for="message">Message</label>
-                    <input id="message" type="text" ><br>
 
-                    <button>send</button>
+        </address>
 
-                </form>
-            </aside>
 
-            <small>Copyright ©️ 2022 kaveesha Inc. All rights reserved.</small>
-            <section></section>
-        </footer>
+    </section>
+    <!--Home End-->
+
+    <!--About Start-->
+    <section id="about">
+        <h3>About</h3>
+        <button>Download CV</button>
+        <img alt="Kaveesha" src="assets/2020-11-02-11-54-34-009.jpg">
+
+        <ul>
+            I am an individual who is willing to obtain
+            challenges and responsibilities to utilize
+            and enhance my skills,experience and
+            knowledge to bring out the best in me.
+        </ul>
+        <ul>
+            <li>Name : Kaveesha Kavindi De Silva</li>
+            <li>Age : 22 Years Old</li>
+            <li>Address : Richmondhill Residencies,Wakunugoda,Galle</li>
+            <li>Email : kaveedesilva567@gmail.com</li>
+            <li>Contact : +94760857876</li>
+        </ul>
+    </section>
+    <!--About End-->
+
+    <!--Education Start-->
+    <section id="education">
+        <img alt="img" id="childImg" src="assets/education.png">
+
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+    </section>
+    <!--Education End-->
+
+    <!--Skill Start-->
+    <section id="skills">
+        <h3>Skills</h3>
+        <section>
+            <h4>Languages</h4>
+            <i class="fas fa-chevron-circle-left"></i>
+            <ul class="skillList">
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">
+                        <figure>
+                            <img alt="icon" height="80" src="assets/java.png">
+                            <figcaption>Java</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+                        <figure>
+                            <img alt="icon" height="80" src="assets/html5.png">
+                            <figcaption>HTML</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+                        <figure><img alt="icon" height="80" src="assets/js.png">
+                            <figcaption>Java Script</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/JavaFX" target="_blank">
+                        <figure>
+                            <img alt="icon" height="80" src="assets/java-fx.png">
+                            <figcaption>Java-Fx</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+                        <figure>
+                            <img alt="icon" height="80" src="assets/css.png">
+                            <figcaption>CSS</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <i class="fas fa-chevron-circle-right"></i>
+
+        </section>
+
+        <section>
+            <h4>Tools</h4>
+            <i class="fas fa-chevron-circle-left"></i>
+            <ul class="skillList">
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Spring_Framework#Spring_Boot" target="_blank">
+                        <figure>
+                            <img alt="icon" src="assets/springBoot.png">
+                            <figcaption>Spring Boot</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/IntelliJ_IDEA" target="_blank">
+                        <figure>
+                            <img alt="icon" src="assets/intellijIdea.png">
+                            <figcaption>IntelliJ IDEA</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/NetBeans" target="_blank">
+                        <figure>
+                            <img alt="icon" src="assets/netbeans.png">
+                            <figcaption>NetBeans</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Angular" target="_blank">
+                        <figure><img alt="icon" src="assets/angular.png">
+                            <figcaption>Angular</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Hibernate_(framework)" target="_blank">
+                        <figure>
+                            <img alt="icon" src="assets/hibernate.png">
+                            <figcaption>Hibernate</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <i class="fas fa-chevron-circle-right"></i>
+        </section>
+
+
+    </section>
+    <!--Skill End-->
+
+    <!--Projects Start-->
+    <section id="projects">
+        <h3>Projects</h3>
+        <a href="https://github.com/Kaveesha-Kavindi-De-Silva?tab=repositories" target="_blank">
+            <figure><img alt="image"  src="assets/Mobile.jpg">
+                <figcaption> MOBILE</figcaption>
+
+            </figure>
+        </a>
+        <a href="https://github.com/Kaveesha-Kavindi-De-Silva?tab=repositories" target="_blank">
+            <figure><img alt="image"  src="assets/java.jpg">
+                <figcaption>JAVA</figcaption>
+
+            </figure>
+        </a>
+        <a href="projects/projects.html" >
+            <figure><img alt="image" src="assets/web.jpg">
+                <figcaption>WEB</figcaption>
+            </figure>
+        </a>
+
+
+    </section>
+    <!--Projects End-->
+
+    <!--Gallery Start-->
+    <section id="gallery">
+        <h3>Gallery</h3>
+
+        <!-- <img alt="icon" height="80" src="assets/icons/left-arrow.png">-->
+        <img alt="image" src="assets/Snapchat-1585258481.jpg">
+
+        <img alt="image" src="assets/2020-11-02-11-54-34-009.jpg">
+        <img alt="image" src="assets/Snapchat-233829886.jpg">
+
+
+        <!-- <img alt="icon" height="80" src="assets/icons/right-arrow.png">-->
+    </section>
+    <!--Gallery End-->
+
+
+</main>
+
+<footer id="contact">
+    <h3>Contact</h3>
+    <address>
+        <ul>
+            <li><i class="fas fa-street-view"></i></li>
+            <li><i class="fas fa-envelope-square"></i></li>
+            <li><i class="fab fa-whatsapp-square"></i></li>
+        </ul>
+
+        <ul>
+            <li>Richmondhill Residencies,<br>Wakunugoda,<br>Galle,<br>Srilanka.</li>
+            <li><a href="mailto:kaveedesilva567@gmail.com">kaveedesilva567@gmail.com</a></li>
+            <li><a href="tel:+94760857876">+94760857876</a></li>
+        </ul>
+    </address>
+
+    <aside>
+        <ul>
+            <li><a href="https://github.com/Kaveesha-Kavindi-De-Silva"></a><i class="fab fa-github-square"></i></li>
+            <li>
+                <a href="https://www.linkedin.com/in/kaveesha-de-silva-0772aa21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7SG3LwaeSL%2Br4jKDTGfPgg%3D%3D"
+                   target="_blank"></a><i class="fab fa-linkedin"></i></li>
+            <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i></li>
+        </ul>
+    </aside>
+
+    <aside>
+        <form action="https://mail.google.com/">
+            <label>Name</label>
+            <input id="name" type="text">
+            <label for="email">Email</label>
+            <input id="email" type="text">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text">
+            <label for="message">Message</label>
+            <input id="message" type="text" ><br>
+
+            <button>send</button>
+
+        </form>
+    </aside>
+
+    <small>Copyright ©️ 2022 Kaveesha Inc. All rights reserved.</small>
+    <section></section>
+</footer>
 
 </body>
 
