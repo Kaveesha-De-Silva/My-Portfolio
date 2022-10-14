@@ -113,7 +113,7 @@
         font-weight: bolder;
         height: 6vh;
         width: 16vw;
-        background-color: #656565;
+        background-color: yellow;
         border-radius: 8px;
         cursor: pointer;
         border-color: #fdfbfb;
@@ -193,9 +193,9 @@
     }
     #about>img{
         position: absolute;
-        top: 22%;
+        top: 32%;
         left: 5%;
-        width: 40%;
+        width: 10%;
 
         animation-name: imgAnimate;
         animation-duration: 2s;
@@ -220,13 +220,21 @@
         font-weight: bolder;
     }
 
-    #about>ul{
+    #about>ul:nth-child(4){
+        position: absolute;
+        width: 500px;
+        top: 25%;
+        left: 55%;
+    }
+
+    #about>ul:nth-child(5){
         height: 55vh;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         position: absolute;
-        top: 28%;
+        top: 35%;
+        left: 55%;
     }
 
 

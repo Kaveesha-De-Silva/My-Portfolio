@@ -16,14 +16,41 @@
         text-align: right;
     }
 
+    #education > p:nth-child(2) {
+        top: 38vh;
+        right: 5vw;
+    }
+
+    #education > p:nth-child(3) {
+        top: 27vh;
+        left: 7vw;
+    }
+
+    #education > p:nth-child(4) {
+        top: 13vh;
+        right: 5vw
+    }
+
     #education > section {
         visibility: hidden;
     }
 
     #childImg {
-        height: 100vh;
+        height: 10vh;
         top: 36vh;
         left: 5vw;
+    }
+
+    #teenImg {
+        height: 12vh;
+        top: 24vh;
+        right: 12vw;
+    }
+
+    #uniImg {
+        height: 17vh;
+        top: 9vh;
+        left: 7vw;
     }
 
     #education > img {
@@ -51,6 +78,22 @@
         position: absolute;
         text-align: right;
     }
+
+    #education > p:nth-child(2) {
+        top: 71vh;
+        left: 26vw;
+    }
+
+    #education > p:nth-child(3) {
+        top: 58vh;
+        left: 52vw;
+    }
+
+    #education > p:nth-child(4) {
+        top: 45vh;
+        left: 78vw;
+    }
+
     #education > section {
         position: absolute;
         width: 83vw;
@@ -104,6 +147,18 @@
         border-radius: 100%;
 
 
+    }
+
+    #education > section > div:nth-child(1) {
+        background-color: darkgoldenrod;
+    }
+
+    #education > section > div:nth-child(2) {
+        background-color: darkgreen;
+    }
+
+    #education > section > div:nth-child(3) {
+        background-color: darkred;
     }
 }
 
@@ -185,18 +240,17 @@
 
     #education > img {
         position: absolute;
-        animation-name: wave;
+        animation-name:wave;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
         transform: rotate(0deg);
     }
-
     @keyframes wave {
-        0% {
+        0%{
             transform: rotate(-5deg);
         }
-        100% {
+        100%{
             transform: rotate(5deg);
         }
 
@@ -207,6 +261,25 @@
         border-radius: 100%;
 
 
+    }
+
+    #education > section > div:nth-child(1) {
+        background-color: darkgoldenrod;
+    }
+
+    #education > section > div:nth-child(2) {
+        background-color: darkgreen;
+    }
+
+    #education > section > div:nth-child(3) {
+        background-color: darkred;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    #education {
+        /*background-color:#717171;*/
+        background-color: #c4c4c4;
     }
 
     #education > h3 {
@@ -248,6 +321,14 @@
     }
 
 
+    .line {
+        height: 1vh;
+        background-color: white;
+        border-radius: 4px;
+        top: 57vh;
+
+    }
+
     #education > section:nth-child(9) {
         top: 56vh;
     }
@@ -283,4 +364,15 @@
 
     }
 
+    #education > section > div:nth-child(1) {
+        background-color: darkgoldenrod;
+    }
+
+    #education > section > div:nth-child(2) {
+        background-color: darkgreen;
+    }
+
+    #education > section > div:nth-child(3) {
+        background-color: darkred;
+    }
 }

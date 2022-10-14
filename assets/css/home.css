@@ -333,6 +333,9 @@
         height: 80vh;
         width: 100%;
         position: relative;
+        background: url("../../assets/6183116.jpg");
+        background-size: cover;
+        background-position: center;
 
     }
 
@@ -443,4 +446,8 @@
             top: 2.8%;
         }
     }
+}
+
+#home{
+    background: url("../../assets/6183116.jpg");
 }
