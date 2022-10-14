@@ -70,12 +70,12 @@ Used Technologies
 * Intellij Idea
 <br>
 * Fontawesome
-<br>
-<br>
+
 <hr>
 <div align="center">
+</div></hr>
 
-# ************ POS System ************
+#        ************ POS System ************
 
 ![POS.png](assets/POS.png)
 
