@@ -56,6 +56,53 @@
 
 [http://kaveeshadesilva.epizy.com/](http://kaveeshadesilva.epizy.com/)
 
+<br>
+Used Technologies
+<br>
+==================
+<br>
+* Html
+<br>
+* CSS
+<br>
+* Java Script
+<br>
+* Intellij Idea
+<br>
+* Fontawesome
+
+
+============================================================
+==============================================================
+# ************ POS System ************
+
+![img_2.png](assets/images/img_2.png)
+
+🗺 Site Map URL : https://www.gloomaps.com/xyW3lJPtQd
+
+🖼 Wire Frame URL : https://wireframe.cc/Dl5lMW
+
+🏝 Mock-up URL : https://www.figma.com/file/IqrH5tcJkZl1KFDX9SSP10/Untitled?node-id=0%3A1
+
+💻 Project URL : https://github.com/Kaveesha-Kavindi-De-Silva/My-Portfolio/tree/master/assignments/CSS/Frameworks/POS
+
+<br>
+Used Technologies
+<br>
+==================
+<br>
+* Html
+<br>
+* CSS
+<br>
+* Java Script
+<br>
+* Bootstrap
+<br>
+* jQuery
+<br>
+* Intellij Idea
+<br>
 <hr>
 <div align="center">
 
